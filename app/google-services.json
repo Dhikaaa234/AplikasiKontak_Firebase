@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1008490186160",
+    "project_id": "aplikasikontak-9792d",
+    "storage_bucket": "aplikasikontak-9792d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008490186160:android:64d6f4abb251ed17fac275",
+        "android_client_info": {
+          "package_name": "com.example.aplikasikontak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByLVABFbFxKss4-pb6AXWXvm-v9YiMZK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

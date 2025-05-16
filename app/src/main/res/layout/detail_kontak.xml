@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iv_detail_icon"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_gravity="center"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:text="Nama Kontak" />
+
+    <TextView
+        android:id="@+id/tv_detail_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:text="08212345678" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_detail_call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Call"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/call"
+            style="@style/Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:id="@+id/btn_detail_sms"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SMS"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/sms"
+            style="@style/Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:id="@+id/btn_detail_wa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="WA"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/ic_whatsapp"
+            style="@style/Widget.AppCompat.Button.Borderless" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"
+            style="@style/Widget.MaterialComponents.Button"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hapus"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"
+            style="@style/Widget.MaterialComponents.Button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
